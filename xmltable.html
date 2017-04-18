@@ -13,17 +13,20 @@
        var t = $('#chart').DataTable();
        $.ajax({
             type: "GET",
-            url: "cd_catalog.xml", 
+            url: "customer_data.xml", 
             dataType: "xml",
             success: function(xml) {  
-             $(xml).find('CD').each(function(){  
+             $(xml).find('customer').each(function(){  
               t.row.add( [
-                $(this).find('ARTIST').text(),
-                $(this).find('TITLE').text(),
-                $(this).find('YEAR').text(),
-                $(this).find('PRICE').text(),
-                $(this).find('COMPANY').text(),
-                $(this).find('COUNTRY').text()
+                $(this).find('Name').text(),
+                $(this).find('Date_of_Birth').text(),
+                $(this).find('Gender').text(),
+                $(this).find('City').text(),
+                $(this).find('State').text(),
+                $(this).find('Country').text()
+                $(this).find('Employer').text()
+                $(this).find('Loyalty_Start_Date').text()
+                $(this).find('Loyalty_Level').text()
               ] ).draw( false );
              });
             }
@@ -36,23 +39,29 @@
   <table id="chart" class="display" cellspacing="0" width="100%">
     <thead>
         <tr>
-            <th>Artist</th>
-            <th>Title</th>
-            <th>Year</th>
-            <th>Price</th>
-            <th>Company</th>
+            <th>Name</th>
+            <th>Date_of_Birth</th>
+            <th>Gender</th>
+            <th>City</th>
+            <th>State</th>
             <th>Country</th>
+            <th>Employer</th>
+            <th>Loyalty_Start_Date</th>
+            <th>Loyalty_Level</th>
         </tr>
     </thead>
 
     <tfoot>
         <tr>
-            <th>Artist</th>
-            <th>Title</th>
-            <th>Year</th>
-            <th>Price</th>
-            <th>Company</th>
+            <th>Name</th>
+            <th>Date_of_Birth</th>
+            <th>Gender</th>
+            <th>City</th>
+            <th>State</th>
             <th>Country</th>
+            <th>Employer</th>
+            <th>Loyalty_Start_Date</th>
+            <th>Loyalty_Level</th>
         </tr>
     </tfoot>
   </table>

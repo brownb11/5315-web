@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<customers>
+	<customer Name="Sterling Archer" Date_of_Birth="22820" Gender="m" City="Casa Blanca" State="CU" Country="Algeria" Employer="ISIS" Loyalty_Start_Date="40953" Loyalty_Level="danger zone"/>
+	<customer Name="Cyril Figas" Date_of_Birth="21840" Gender="m" City="Boonesville" State="MI" Country="USA" Employer="ISIS" Loyalty_Start_Date="41340" Loyalty_Level="safe zone"/>
+	<customer Name="Raymond Gillete" Date_of_Birth="24115" Gender="m" City="Bourbon" State="KY" Country="USA" Employer="ISIS" Loyalty_Start_Date="39712" Loyalty_Level="safe zone"/>
+	<customer Name="Pamela Poovey" Date_of_Birth="27382" Gender="f" City="Cowsville" State="WI" Country="USA" Employer="ISIS" Loyalty_Start_Date="40330" Loyalty_Level="middle zone"/>
+	<customer Name="Cheryl Gimble-Tunt" Date_of_Birth="27120" Gender="f" City="New York" State="NY" Country="USA" Employer="ISIS" Loyalty_Start_Date="42338" Loyalty_Level="middle zone"/>
+	<customer Name="Lana Kane" Date_of_Birth="24900" Gender="f" City="Berkley" State="CA" Country="USA" Employer="ISIS" Loyalty_Start_Date="42339" Loyalty_Level="danger zone"/>
+	<customer Name="Mallory Archer" Date_of_Birth="10481" Gender="f" City="Chicago" State="IL" Country="USA" Employer="ISIS" Loyalty_Start_Date="40576" Loyalty_Level="danger zone"/>
+	<customer Name="Brett Bunsen" Date_of_Birth="26583" Gender="m" City="Decatour" State="IA" Country="USA" Employer="ISIS" Loyalty_Start_Date="38604" Loyalty_Level="safe zone"/>
+	<customer Name="Krieger Algernaught" Date_of_Birth="19966" Gender="m" City="Brasistol" State="RI" Country="USA" Employer="ISIS" Loyalty_Start_Date="39146" Loyalty_Level="middle zone"/>
+	<customer Name="Barry" Date_of_Birth="24180" Gender="m" City="Hartford" State="CT" Country="USA" Employer="Odin" Loyalty_Start_Date="42196" Loyalty_Level="middle zone"/>
+	<customer Name="Nikoli Jackoff" Date_of_Birth="7367" Gender="m" City="Moscow" State="MW" Country="RUS" Employer="KGB" Loyalty_Start_Date="41873" Loyalty_Level="safe zone"/>
+</customers>
