@@ -1,6 +1,6 @@
 {
-  "Beer_Table": {
-    "BeerRow": [
+
+    "data": [
       {
         "Name": "Bourbon Abominable",
         "Style": "Winter Ale",
@@ -50,5 +50,5 @@
         "Rating": "4"
       }
     ]
-  }
+  
 }
