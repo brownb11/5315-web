@@ -75,13 +75,13 @@ function loadXMLDoc() {
       myFunction(xmlhttp);
     }
   }
-  xmlhttp.open("GET", "cd_catalog.xml", true);
+  xmlhttp.open("GET", "customer_data.xml", true);
   xmlhttp.send();
 }
 function myFunction(xml) {
   var i;
   var xmlDoc = xml.responseXML;
-  var table="<tr><th>Name</th><th>Title</th></tr>";
+  var table="<tr><th>Name</th><th>Gender</th></tr>";
   var x = xmlDoc.getElementsByTagName("customerRow");
   for (i = 0; i <x.length; i++) { 
     table += "<tr><td>" +
