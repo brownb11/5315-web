@@ -16,7 +16,7 @@
             url: "customer_data.xml", 
             dataType: "xml",
             success: function(xml) {  
-             $(xml).find('customer').each(function(){  
+             $(xml).find('customerRow').each(function(){  
               t.row.add( [
                 $(this).find('Name').text(),
                 $(this).find('Gender').text(),
