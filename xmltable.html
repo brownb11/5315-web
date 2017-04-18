@@ -19,13 +19,11 @@
              $(xml).find('customer').each(function(){  
               t.row.add( [
                 $(this).find('Name').text(),
-                $(this).find('Date_of_Birth').text(),
                 $(this).find('Gender').text(),
                 $(this).find('City').text(),
                 $(this).find('State').text(),
                 $(this).find('Country').text()
                 $(this).find('Employer').text()
-                $(this).find('Loyalty_Start_Date').text()
                 $(this).find('Loyalty_Level').text()
               ] ).draw( false );
              });
@@ -40,13 +38,11 @@
     <thead>
         <tr>
             <th>Name</th>
-            <th>Date_of_Birth</th>
             <th>Gender</th>
             <th>City</th>
             <th>State</th>
             <th>Country</th>
             <th>Employer</th>
-            <th>Loyalty_Start_Date</th>
             <th>Loyalty_Level</th>
         </tr>
     </thead>
@@ -54,13 +50,11 @@
     <tfoot>
         <tr>
             <th>Name</th>
-            <th>Date_of_Birth</th>
             <th>Gender</th>
             <th>City</th>
             <th>State</th>
             <th>Country</th>
             <th>Employer</th>
-            <th>Loyalty_Start_Date</th>
             <th>Loyalty_Level</th>
         </tr>
     </tfoot>
