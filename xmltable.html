@@ -19,7 +19,6 @@
              $(xml).find('customerRow').each(function(){  
               t.row.add( [
                 $(this).find('Name').text(),
-                $(this).find('Gender').text(),
                 $(this).find('City').text(),
                 $(this).find('State').text(),
                 $(this).find('Country').text()
@@ -38,7 +37,6 @@
     <thead>
         <tr>
             <th>Name</th>
-            <th>Gender</th>
             <th>City</th>
             <th>State</th>
             <th>Country</th>
@@ -50,7 +48,6 @@
     <tfoot>
         <tr>
             <th>Name</th>
-            <th>Gender</th>
             <th>City</th>
             <th>State</th>
             <th>Country</th>
@@ -87,7 +84,7 @@ function myFunction(xml) {
     table += "<tr><td>" +
     x[i].getElementsByTagName("Name")[0].childNodes[0].nodeValue +
     "</td><td>" +
-    x[i].getElementsByTagName("Gender")[0].childNodes[0].nodeValue +
+    x[i].getElementsByTagName("City")[0].childNodes[0].nodeValue +
     "</td></tr>";
   }
   document.getElementById("demo").innerHTML = table;

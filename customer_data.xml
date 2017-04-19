@@ -2,7 +2,6 @@
 <Customer_Table>
 	<customerRow>
 		<Name>Sterling Archer</Name>
-		<Gender>m</Gender>
 		<City>Casa Blanca</City>
 		<State>CU</State>
 		<Country>Algeria</Country>
@@ -11,7 +10,6 @@
 	</customerRow>
 	<customerRow>
 		<Name>Cyril Figas</Name>
-		<Gender>m</Gender>
 		<City>Boonesville</City>
 		<State>MI</State>
 		<Country>USA</Country>
@@ -20,7 +18,6 @@
 	</customerRow>
 	<customerRow>
 		<Name>Raymond Gillete</Name>
-		<Gender>m</Gender>
 		<City>Bourbon</City>
 		<State>KY</State>
 		<Country>USA</Country>
@@ -29,7 +26,6 @@
 	</customerRow>
 	<customerRow>
 		<Name>Pamela Poovey</Name>
-		<Gender>f</Gender>
 		<City>Cowsville</City>
 		<State>WI</State>
 		<Country>USA</Country>
@@ -38,7 +34,6 @@
 	</customerRow>
 	<customerRow>
 		<Name>Cheryl Gimble-Tunt</Name>
-		<Gender>f</Gender>
 		<City>New York</City>
 		<State>NY</State>
 		<Country>USA</Country>
@@ -47,7 +42,6 @@
 	</customerRow>
 	<customerRow>
 		<Name>Lana Kane</Name>
-		<Gender>f</Gender>
 		<City>Berkley</City>
 		<State>CA</State>
 		<Country>USA</Country>
@@ -56,7 +50,6 @@
 	</customerRow>
 	<customerRow>
 		<Name>Mallory Archer</Name>
-		<Gender>f</Gender>
 		<City>Chicago</City>
 		<State>IL</State>
 		<Country>USA</Country>
@@ -65,7 +58,6 @@
 	</customerRow>
 	<customerRow>
 		<Name>Brett Bunsen</Name>
-		<Gender>m</Gender>
 		<City>Decatour</City>
 		<State>IA</State>
 		<Country>USA</Country>
@@ -74,7 +66,6 @@
 	</customerRow>
 	<customerRow>
 		<Name>Krieger Algernaught</Name>
-		<Gender>m</Gender>
 		<City>Brasistol</City>
 		<State>RI</State>
 		<Country>USA</Country>
@@ -83,7 +74,6 @@
 	</customerRow>
 	<customerRow>
 		<Name>Barry</Name>
-		<Gender>m</Gender>
 		<City>Hartford</City>
 		<State>CT</State>
 		<Country>USA</Country>
@@ -92,7 +82,6 @@
 	</customerRow>
 	<customerRow>
 		<Name>Nikoli Jackoff</Name>
-		<Gender>m</Gender>
 		<City>Moscow</City>
 		<State>MW</State>
 		<Country>RUS</Country>
